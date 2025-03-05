@@ -128,23 +128,31 @@
                 });
 
                 const data = await response.json();
+                console.log("🔹 API Response:", data);
+
                 chatBox.removeChild(typingDiv); // Remove typing indicator
 
-                if (data.messages && data.messages.length > 0) {
-                    for (const msg of data.messages) {
+                if (data.messages) {
+                    let messages = Array.isArray(data.messages) ? data.messages : [data.messages];
+
+                    messages.forEach(msg => {
                         const botMessageDiv = document.createElement("div");
                         botMessageDiv.classList.add("message", "bot-message");
                         botMessageDiv.innerText = msg.text;
                         chatBox.appendChild(botMessageDiv);
 
+                        // Play audio if available
                         if (msg.audio) {
+                            console.log("🎵 Playing audio...");
                             const audio = new Audio(`data:audio/mp3;base64,${msg.audio}`);
-                            audio.play();
+                            audio.play().catch(error => console.error("🔴 Audio playback error:", error));
                         }
-                    }
+                    });
+                } else {
+                    console.warn("⚠️ Unexpected response format:", data);
                 }
             } catch (error) {
-                console.error("Error:", error);
+                console.error("❌ Error:", error);
                 chatBox.removeChild(typingDiv);
                 const errorDiv = document.createElement("div");
                 errorDiv.classList.add("message", "bot-message");

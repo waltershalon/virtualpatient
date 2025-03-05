@@ -1,13 +1,13 @@
 import cors from "cors";
 import dotenv from "dotenv";
 import express from "express";
-import { ElevenLabsClient } from "elevenlabs";
 import OpenAI from "openai";
+import { ElevenLabsClient } from "elevenlabs";
 
 dotenv.config();
 
 const openai = new OpenAI({
-  apiKey: process.env.OPENAI_API_KEY || "", // Ensure this is set in .env
+  apiKey: process.env.OPENAI_API_KEY || "",
 });
 
 const elevenLabsApiKey = process.env.ELEVEN_LABS_API_KEY;
@@ -47,7 +47,12 @@ app.post("/chat", async (req, res) => {
           content: `
           You are a virtual patient simulator.
           Respond with structured medical responses.
-          Always return JSON with text and animation properties.
+          Always return JSON in this format:
+          {
+            "messages": [
+              { "text": "Your response", "animation": "Talking" }
+            ]
+          }
           The animations include: Talking, Idle, Thinking, Painful, and Distressed.
           `,
         },
@@ -56,23 +61,25 @@ app.post("/chat", async (req, res) => {
           content: userMessage,
         },
       ],
+      response_format: { type: "json_object" }, // ✅ Corrected to an object
     });
 
-    // Ensure response is valid JSON
     let messages;
-    try {
+    if (typeof completion.choices[0].message.content === "string") {
       messages = JSON.parse(completion.choices[0].message.content);
-    } catch (error) {
-      console.error("Invalid JSON response from OpenAI:", completion.choices[0].message.content);
+    } else {
+      messages = completion.choices[0].message.content;
+    }
+
+    if (!messages.messages) {
+      console.error("⚠️ OpenAI did not return 'messages' field:", messages);
       return res.status(500).json({ error: "Invalid AI response format" });
     }
 
-    if (messages.messages) {
-      messages = messages.messages;
-    }
+    let messageList = Array.isArray(messages.messages) ? messages.messages : [messages.messages];
 
-    for (let i = 0; i < messages.length; i++) {
-      const message = messages[i];
+    for (let i = 0; i < messageList.length; i++) {
+      const message = messageList[i];
 
       // Generate text-to-speech audio
       const audioStream = await elevenLabs.textToSpeech.convertAsStream(voiceID, {
@@ -87,13 +94,15 @@ app.post("/chat", async (req, res) => {
       message.audio = Buffer.concat(audioData).toString("base64");
     }
 
-    res.json({ messages });
+    console.log("✅ Sending response:", messageList);
+    res.json({ messages: messageList });
+
   } catch (error) {
-    console.error("Server Error:", error);
+    console.error("❌ Server Error:", error);
     res.status(500).json({ error: "Internal server error" });
   }
 });
 
 app.listen(port, () => {
-  console.log(`Virtual Patient listening on port ${port}`);
+  console.log(`🚀 Virtual Patient listening on port ${port}`);
 });
