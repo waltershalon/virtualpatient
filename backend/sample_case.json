@@ -1,0 +1,1165 @@
+{
+    "version": "1.0",
+    "timestamp": "2025-04-08T22:13:43.095Z",
+    "name": "Imported Format",
+    "sections": [
+      {
+        "id": "section-1735568863993",
+        "title": "Section 1: Case Summary",
+        "tables": [
+          {
+            "id": "table-1735568901365",
+            "title": "Case Title",
+            "hasHeader": false,
+            "columns": 2,
+            "rows": [
+              {
+                "id": "row-1735568901365-0",
+                "cells": [
+                  {
+                    "id": "cell-1735568901365-0-0",
+                    "content": "Scenario Title:",
+                    "isHeader": false
+                  },
+                  {
+                    "id": "cell-1735568901365-0-1",
+                    "content": "Emergent Management of Acute Cardiac Event",
+                    "isHeader": false,
+                    "isAIGenerated": true,
+                    "originalVariable": "scenario_title"
+                  }
+                ]
+              },
+              {
+                "id": "row-1735568901365-1",
+                "cells": [
+                  {
+                    "id": "cell-1735568901365-1-0",
+                    "content": "Brief Description of Case:",
+                    "isHeader": false
+                  },
+                  {
+                    "id": "cell-1735568901365-1-1",
+                    "content": "Elena Martinez, a 47-year-old female, presents to the emergency department with sudden onset of chest pain radiating to the left arm, accompanied by worsening shortness of breath over the past two days, dry cough, and fever. She has a history of type 2 diabetes and hypertension. Initial vital signs show BP 145/95 mmHg, HR 110 bpm, RR 22/min, Temperature 38.3°C, SpO2 94% on room air.",
+                    "isHeader": false,
+                    "isAIGenerated": true,
+                    "originalVariable": "description_of_case"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "table-1735569329243",
+            "title": "Learning Objectives",
+            "hasHeader": false,
+            "columns": 2,
+            "rows": [
+              {
+                "id": "row-1735569329243-0",
+                "cells": [
+                  {
+                    "id": "cell-1735569329243-0-0",
+                    "content": "Objective 1:",
+                    "isHeader": false
+                  },
+                  {
+                    "id": "cell-1735569329243-0-1",
+                    "content": "Recognize the signs and symptoms of acute myocardial infarction",
+                    "isHeader": false,
+                    "isAIGenerated": true,
+                    "originalVariable": "obj_1"
+                  }
+                ]
+              },
+              {
+                "id": "row-1735569329243-1",
+                "cells": [
+                  {
+                    "id": "cell-1735569329243-1-0",
+                    "content": "Objective 2:",
+                    "isHeader": false
+                  },
+                  {
+                    "id": "cell-1735569329243-1-1",
+                    "content": "Demonstrate the steps for diagnosing and managing acute myocardial infarction",
+                    "isHeader": false,
+                    "isAIGenerated": true,
+                    "originalVariable": "obj_2"
+                  }
+                ]
+              },
+              {
+                "id": "row-1735569329243-2",
+                "cells": [
+                  {
+                    "id": "cell-1735569329243-2-0",
+                    "content": "Objective 3:",
+                    "isHeader": false
+                  },
+                  {
+                    "id": "cell-1735569329243-2-1",
+                    "content": "Discuss the management strategies for acute pancreatitis, including initial stabilization, pain control, and nutritional support.",
+                    "isHeader": false,
+                    "isAIGenerated": true,
+                    "originalVariable": "obj_3"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "table-1735569596551",
+            "title": "Learners, Setting, and Personnel",
+            "hasHeader": false,
+            "columns": 2,
+            "rows": [
+              {
+                "id": "row-1735569596551-0",
+                "cells": [
+                  {
+                    "id": "cell-1735569596551-0-0",
+                    "content": "Learner Group:",
+                    "isHeader": false
+                  },
+                  {
+                    "id": "cell-1735569596551-0-1",
+                    "content": "Third-year medical students on emergency medicine rotation",
+                    "isHeader": false,
+                    "isAIGenerated": true,
+                    "originalVariable": "learner_group"
+                  }
+                ]
+              },
+              {
+                "id": "row-1735569596551-1",
+                "cells": [
+                  {
+                    "id": "cell-1735569596551-1-0",
+                    "content": "Location:",
+                    "isHeader": false
+                  },
+                  {
+                    "id": "cell-1735569596551-1-1",
+                    "content": "Rural community hospital emergency department",
+                    "isHeader": false,
+                    "isAIGenerated": true,
+                    "originalVariable": "location"
+                  }
+                ]
+              },
+              {
+                "id": "row-1735569596551-2",
+                "cells": [
+                  {
+                    "id": "cell-1735569596551-2-0",
+                    "content": "Instructors:",
+                    "isHeader": false
+                  },
+                  {
+                    "id": "cell-1735569596551-2-1",
+                    "content": "Dr. Emily Thompson, Prof. Marcus Johnson, Nurse Practitioner Sarah Lee",
+                    "isHeader": false,
+                    "isAIGenerated": true,
+                    "originalVariable": "instructors"
+                  }
+                ]
+              },
+              {
+                "id": "row-1735569596551-3",
+                "cells": [
+                  {
+                    "id": "cell-1735569596551-3-0",
+                    "content": "Embedded Simulated Participants (ESPs)",
+                    "isHeader": false
+                  },
+                  {
+                    "id": "cell-1735569596551-3-1",
+                    "content": "None",
+                    "isHeader": false,
+                    "isAIGenerated": true,
+                    "originalVariable": "esps"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "table-1735569680536",
+            "title": "Scenario Development",
+            "hasHeader": false,
+            "columns": 2,
+            "rows": [
+              {
+                "id": "row-1735569680536-0",
+                "cells": [
+                  {
+                    "id": "cell-1735569680536-0-0",
+                    "content": "Date of Development:",
+                    "isHeader": false
+                  },
+                  {
+                    "id": "cell-1735569680536-0-1",
+                    "content": "June 15, 2023",
+                    "isHeader": false,
+                    "isAIGenerated": true,
+                    "originalVariable": "date_of_dev"
+                  }
+                ]
+              },
+              {
+                "id": "row-1735569680536-1",
+                "cells": [
+                  {
+                    "id": "cell-1735569680536-1-0",
+                    "content": "Scenario Developers:",
+                    "isHeader": false
+                  },
+                  {
+                    "id": "cell-1735569680536-1-1",
+                    "content": "Alex Rivera, Samantha Cho, Raj Patel",
+                    "isHeader": false,
+                    "isAIGenerated": true,
+                    "originalVariable": "scenario_developers"
+                  }
+                ]
+              },
+              {
+                "id": "row-1735569680536-2",
+                "cells": [
+                  {
+                    "id": "cell-1735569680536-2-0",
+                    "content": "Affiliations/Institutions:",
+                    "isHeader": false
+                  },
+                  {
+                    "id": "cell-1735569680536-2-1",
+                    "content": "University of Health Sciences Simulation Center",
+                    "isHeader": false,
+                    "isAIGenerated": true,
+                    "originalVariable": "affiliations_institutions"
+                  }
+                ]
+              },
+              {
+                "id": "row-1735569680536-3",
+                "cells": [
+                  {
+                    "id": "cell-1735569680536-3-0",
+                    "content": "Contact Email:",
+                    "isHeader": false
+                  },
+                  {
+                    "id": "cell-1735569680536-3-1",
+                    "content": "simdevteam@mededu.org",
+                    "isHeader": false,
+                    "isAIGenerated": true,
+                    "originalVariable": "contact_email"
+                  }
+                ]
+              },
+              {
+                "id": "row-1735569680536-4",
+                "cells": [
+                  {
+                    "id": "cell-1735569680536-4-0",
+                    "content": "Last Revision Date:",
+                    "isHeader": false
+                  },
+                  {
+                    "id": "cell-1735569680536-4-1",
+                    "content": "2023-09-15",
+                    "isHeader": false,
+                    "isAIGenerated": true,
+                    "originalVariable": "last_revision_date"
+                  }
+                ]
+              },
+              {
+                "id": "row-1735569680536-5",
+                "cells": [
+                  {
+                    "id": "cell-1735569680536-5-0",
+                    "content": "Revised By:",
+                    "isHeader": false
+                  },
+                  {
+                    "id": "cell-1735569680536-5-1",
+                    "content": "Alexandra Patel and Jordan Kimura",
+                    "isHeader": false,
+                    "isAIGenerated": true,
+                    "originalVariable": "revised_by"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "table-1735569693497",
+            "title": "Length of Training",
+            "hasHeader": false,
+            "columns": 2,
+            "rows": [
+              {
+                "id": "row-1735569693497-0",
+                "cells": [
+                  {
+                    "id": "cell-1735569693497-0-0",
+                    "content": "Prebrief:",
+                    "isHeader": false
+                  },
+                  {
+                    "id": "cell-1735569693497-0-1",
+                    "content": "15 minutes",
+                    "isHeader": false,
+                    "isAIGenerated": true,
+                    "originalVariable": "prebrief"
+                  }
+                ]
+              },
+              {
+                "id": "row-1735569693497-1",
+                "cells": [
+                  {
+                    "id": "cell-1735569693497-1-0",
+                    "content": "Scenario:",
+                    "isHeader": false
+                  },
+                  {
+                    "id": "cell-1735569693497-1-1",
+                    "content": "45 minutes",
+                    "isHeader": false,
+                    "isAIGenerated": true,
+                    "originalVariable": "scenario"
+                  }
+                ]
+              },
+              {
+                "id": "row-1735569693497-2",
+                "cells": [
+                  {
+                    "id": "cell-1735569693497-2-0",
+                    "content": "Debrief:",
+                    "isHeader": false
+                  },
+                  {
+                    "id": "cell-1735569693497-2-1",
+                    "content": "30 minutes",
+                    "isHeader": false,
+                    "isAIGenerated": true,
+                    "originalVariable": "debrief"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "section-1735570029477",
+        "title": "Section 2: Set Up",
+        "tables": [
+          {
+            "id": "table-1735570248381",
+            "title": "Key Elements",
+            "hasHeader": false,
+            "columns": 2,
+            "rows": [
+              {
+                "id": "row-1735570248381-0",
+                "cells": [
+                  {
+                    "id": "cell-1735570248381-0-0",
+                    "content": "A. Modality (Patient Simulator, Task Trainer, Standardized Patient, Etc.)",
+                    "isHeader": false
+                  },
+                  {
+                    "id": "cell-1735570248381-0-1",
+                    "content": "Standardized Patient",
+                    "isHeader": false,
+                    "isAIGenerated": true,
+                    "originalVariable": "modality"
+                  }
+                ]
+              },
+              {
+                "id": "row-1735570248381-1",
+                "cells": [
+                  {
+                    "id": "cell-1735570248381-1-0",
+                    "content": "B. Special Equipment/Supplies (Code cart, cardiac monitor, RSI kit will be in all rooms)",
+                    "isHeader": false
+                  },
+                  {
+                    "id": "cell-1735570248381-1-1",
+                    "content": "Laryngoscope with a variety of blade sizes, endotracheal tubes, bag-valve-mask, portable ultrasound machine, IV start kits, fluid warmer, crash cart with defibrillator",
+                    "isHeader": false,
+                    "isAIGenerated": true,
+                    "originalVariable": "special_equipment_and_supplies"
+                  }
+                ]
+              },
+              {
+                "id": "row-1735570248381-2",
+                "cells": [
+                  {
+                    "id": "cell-1735570248381-2-0",
+                    "content": "C. Required Medication (Medication name, dose)",
+                    "isHeader": false
+                  },
+                  {
+                    "id": "cell-1735570248381-2-1",
+                    "content": "Epinephrine 0.3 mg IM",
+                    "isHeader": false,
+                    "isAIGenerated": true,
+                    "originalVariable": "required_medication"
+                  }
+                ]
+              },
+              {
+                "id": "row-1735570248381-3",
+                "cells": [
+                  {
+                    "id": "cell-1735570248381-3-0",
+                    "content": "D. Moulage (Provide description of any moulage needed for scenario)",
+                    "isHeader": false
+                  },
+                  {
+                    "id": "cell-1735570248381-3-1",
+                    "content": "Pale, diaphoretic skin with a simulated distended abdomen and a visible bruise on the right lower quadrant. Fake blood for potential vomiting scene.",
+                    "isHeader": false,
+                    "isAIGenerated": true,
+                    "originalVariable": "moulage"
+                  }
+                ]
+              },
+              {
+                "id": "row-1735570248381-4",
+                "cells": [
+                  {
+                    "id": "cell-1735570248381-4-0",
+                    "content": "E. Patient Monitor (Vital Signs Displayed at Case Onset OR Displayed When Placed on Machine)",
+                    "isHeader": false
+                  },
+                  {
+                    "id": "cell-1735570248381-4-1",
+                    "content": "Heart rate: 110 bpm, Blood pressure: 145/95 mmHg, Respiratory rate: 22 breaths/min, Temperature: 38.3°C, SpO2: 94% on room air",
+                    "isHeader": false,
+                    "isAIGenerated": true,
+                    "originalVariable": "patient_monitor"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "section-1735570337782",
+        "title": "Section 3: Initial Patient Information",
+        "tables": [
+          {
+            "id": "table-1735570412534",
+            "title": "A. Patient Chart",
+            "hasHeader": false,
+            "columns": 2,
+            "rows": [
+              {
+                "id": "row-1735571163919",
+                "cells": [
+                  {
+                    "id": "cell-1735571163919-0",
+                    "content": "Patient Name:",
+                    "isHeader": false
+                  },
+                  {
+                    "id": "cell-1735571163919-1",
+                    "content": "Elena Martinez",
+                    "isHeader": false,
+                    "isAIGenerated": true,
+                    "originalVariable": "patient_name"
+                  }
+                ]
+              },
+              {
+                "id": "row-1735571288852",
+                "cells": [
+                  {
+                    "id": "cell-1735571288852-0",
+                    "content": "Presenting Complaint: ",
+                    "isHeader": false
+                  },
+                  {
+                    "id": "cell-1735571288852-1",
+                    "content": "Sudden onset of chest pain radiating to the left arm",
+                    "isHeader": false,
+                    "isAIGenerated": true,
+                    "originalVariable": "presenting_complaint"
+                  }
+                ]
+              },
+              {
+                "id": "row-1735571290044",
+                "cells": [
+                  {
+                    "id": "cell-1735571290044-0",
+                    "content": "Chief Complaint: ",
+                    "isHeader": false
+                  },
+                  {
+                    "id": "cell-1735571290044-1",
+                    "content": "\"Worsening shortness of breath over the past two days, now with a dry cough and fever\"",
+                    "isHeader": false,
+                    "isAIGenerated": true,
+                    "originalVariable": "chief_complaint"
+                  }
+                ]
+              },
+              {
+                "id": "row-1735571290892",
+                "cells": [
+                  {
+                    "id": "cell-1735571290892-0",
+                    "content": "Past Medical History: ",
+                    "isHeader": false
+                  },
+                  {
+                    "id": "cell-1735571290892-1",
+                    "content": "Type 2 diabetes managed with metformin, hypertension controlled with lisinopril, and a history of cholecystectomy five years ago",
+                    "isHeader": false,
+                    "isAIGenerated": true,
+                    "originalVariable": "past_medical_history"
+                  }
+                ]
+              },
+              {
+                "id": "row-1735571292132",
+                "cells": [
+                  {
+                    "id": "cell-1735571292132-0",
+                    "content": "Current Medications: ",
+                    "isHeader": false
+                  },
+                  {
+                    "id": "cell-1735571292132-1",
+                    "content": "Lisinopril 10 mg daily, Metformin 500 mg twice daily, Atorvastatin 20 mg nightly",
+                    "isHeader": false,
+                    "isAIGenerated": true,
+                    "originalVariable": "current_medications"
+                  }
+                ]
+              },
+              {
+                "id": "row-1735571433475",
+                "cells": [
+                  {
+                    "id": "cell-1735571433475-0",
+                    "content": "Allergies: ",
+                    "isHeader": false
+                  },
+                  {
+                    "id": "cell-1735571433475-1",
+                    "content": "Penicillin, peanuts",
+                    "isHeader": false,
+                    "isAIGenerated": true,
+                    "originalVariable": "allergies"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "table-1735571515740",
+            "title": "B. Vitals",
+            "hasHeader": false,
+            "columns": 8,
+            "rows": [
+              {
+                "id": "row-1735571515740-0",
+                "cells": [
+                  {
+                    "id": "cell-1735571515740-0-0",
+                    "content": "Age:",
+                    "isHeader": false
+                  },
+                  {
+                    "id": "cell-1735571515740-0-1",
+                    "content": "47",
+                    "isHeader": false,
+                    "isAIGenerated": true,
+                    "originalVariable": "age"
+                  },
+                  {
+                    "id": "cell-1735571515740-0-2",
+                    "content": "Sex:",
+                    "isHeader": false
+                  },
+                  {
+                    "id": "cell-1735571515740-0-3",
+                    "content": "47",
+                    "isHeader": false,
+                    "isAIGenerated": true,
+                    "originalVariable": "sex"
+                  },
+                  {
+                    "id": "cell-1735571595341-row-1735571515740-0",
+                    "content": "Height/Weight:",
+                    "isHeader": false
+                  },
+                  {
+                    "id": "cell-1735571596725-row-1735571515740-0",
+                    "content": "47",
+                    "isHeader": false,
+                    "isAIGenerated": true,
+                    "originalVariable": "height_and_weight"
+                  },
+                  {
+                    "id": "cell-1735571685278-row-1735571515740-0",
+                    "content": "Temperature:",
+                    "isHeader": false
+                  },
+                  {
+                    "id": "cell-1735571686542-row-1735571515740-0",
+                    "content": "37",
+                    "isHeader": false,
+                    "isAIGenerated": true,
+                    "originalVariable": "baseline_temp"
+                  }
+                ]
+              },
+              {
+                "id": "row-1735571515740-1",
+                "cells": [
+                  {
+                    "id": "cell-1735571515740-1-0",
+                    "content": "Blood Pressure:",
+                    "isHeader": false
+                  },
+                  {
+                    "id": "cell-1735571515740-1-1",
+                    "content": "120/80",
+                    "isHeader": false,
+                    "isAIGenerated": true,
+                    "originalVariable": "baseline_bp"
+                  },
+                  {
+                    "id": "cell-1735571515740-1-2",
+                    "content": "Heart Rate:",
+                    "isHeader": false
+                  },
+                  {
+                    "id": "cell-1735571515740-1-3",
+                    "content": "120/80",
+                    "isHeader": false,
+                    "isAIGenerated": true,
+                    "originalVariable": "baseline_hr"
+                  },
+                  {
+                    "id": "cell-1735571595341-row-1735571515740-1",
+                    "content": "Respiration Rate:",
+                    "isHeader": false
+                  },
+                  {
+                    "id": "cell-1735571596725-row-1735571515740-1",
+                    "content": "120/80",
+                    "isHeader": false,
+                    "isAIGenerated": true,
+                    "originalVariable": "baseline_rr"
+                  },
+                  {
+                    "id": "cell-1735571685278-row-1735571515740-1",
+                    "content": "spO2:",
+                    "isHeader": false
+                  },
+                  {
+                    "id": "cell-1735571686542-row-1735571515740-1",
+                    "content": "97%",
+                    "isHeader": false,
+                    "isAIGenerated": true,
+                    "originalVariable": "baseline_spo2"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "section-1735571811900",
+        "title": "Section 4: Extra Patient Information",
+        "tables": [
+          {
+            "id": "table-1735572044149",
+            "title": "A. Further History",
+            "hasHeader": false,
+            "columns": 2,
+            "rows": [
+              {
+                "id": "row-1735572044149-0",
+                "cells": [
+                  {
+                    "id": "cell-1735572044149-0-0",
+                    "content": "Patient History (Report to be given at the start of case):",
+                    "isHeader": false
+                  },
+                  {
+                    "id": "cell-1735572044149-0-1",
+                    "content": "Elena Martinez, a 52-year-old female, presents to the emergency department with a 6-hour history of sudden onset, sharp, right lower quadrant abdominal pain that has progressively worsened. The pain is associated with nausea but no vomiting. She denies any recent changes in bowel habits, urinary symptoms, or fever. Her past medical history includes hypertension, for which she takes lisinopril, and type 2 diabetes managed with metformin. She has no known drug allergies.",
+                    "isHeader": false,
+                    "isAIGenerated": true,
+                    "originalVariable": "patient_history"
+                  }
+                ]
+              },
+              {
+                "id": "row-1735572044149-1",
+                "cells": [
+                  {
+                    "id": "cell-1735572044149-1-0",
+                    "content": "Additional Information (only if asked by learner):",
+                    "isHeader": false
+                  },
+                  {
+                    "id": "cell-1735572044149-1-1",
+                    "content": "The patient has been experiencing intermittent episodes of dizziness and palpitations over the last month, often occurring during periods of rest. They have a family history of cardiac arrhythmias.",
+                    "isHeader": false,
+                    "isAIGenerated": true,
+                    "originalVariable": "additional_information"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "table-1735572090922",
+            "title": "B. Physical Exam",
+            "hasHeader": false,
+            "columns": 4,
+            "rows": [
+              {
+                "id": "row-1735572090922-0",
+                "cells": [
+                  {
+                    "id": "cell-1735572090922-0-0",
+                    "content": "Cardio: ",
+                    "isHeader": false
+                  },
+                  {
+                    "id": "cell-1735572090922-0-1",
+                    "content": "Bilateral basal crackles, 3/6 systolic murmur heard best at the apex, jugular venous distension",
+                    "isHeader": false,
+                    "isAIGenerated": true,
+                    "originalVariable": "cardio"
+                  },
+                  {
+                    "id": "cell-1735572090922-0-2",
+                    "content": "Neuro: ",
+                    "isHeader": false
+                  },
+                  {
+                    "id": "cell-1735572090922-0-3",
+                    "content": "Normal heart rate and rhythm, no murmurs, rubs, or gallops detected on auscultation",
+                    "isHeader": false,
+                    "isAIGenerated": true,
+                    "originalVariable": "neuro"
+                  }
+                ]
+              },
+              {
+                "id": "row-1735572090922-1",
+                "cells": [
+                  {
+                    "id": "cell-1735572090922-1-0",
+                    "content": "Resp: ",
+                    "isHeader": false
+                  },
+                  {
+                    "id": "cell-1735572090922-1-1",
+                    "content": "mild wheezing with decreased breath sounds on the left side",
+                    "isHeader": false,
+                    "isAIGenerated": true,
+                    "originalVariable": "resp"
+                  },
+                  {
+                    "id": "cell-1735572090922-1-2",
+                    "content": "Head & Neck: ",
+                    "isHeader": false
+                  },
+                  {
+                    "id": "cell-1735572090922-1-3",
+                    "content": "Bilateral wheezing with decreased breath sounds in the lower lobes",
+                    "isHeader": false,
+                    "isAIGenerated": true,
+                    "originalVariable": "head_and_neck"
+                  }
+                ]
+              },
+              {
+                "id": "row-1735572090922-2",
+                "cells": [
+                  {
+                    "id": "cell-1735572090922-2-0",
+                    "content": "Abdo: ",
+                    "isHeader": false
+                  },
+                  {
+                    "id": "cell-1735572090922-2-1",
+                    "content": "Mild tenderness in the right lower quadrant without rebound or guarding",
+                    "isHeader": false,
+                    "isAIGenerated": true,
+                    "originalVariable": "abdo"
+                  },
+                  {
+                    "id": "cell-1735572090922-2-2",
+                    "content": "MSK/skin: ",
+                    "isHeader": false
+                  },
+                  {
+                    "id": "cell-1735572090922-2-3",
+                    "content": "Mild diffuse abdominal tenderness without rebound or guarding",
+                    "isHeader": false,
+                    "isAIGenerated": true,
+                    "originalVariable": "msk_and_skin"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "section-1735571838423",
+        "title": "Section 5: Embedded Simulation Participant",
+        "tables": [
+          {
+            "id": "table-1735572150928",
+            "title": "Simulation Participant Roles and Scripts",
+            "hasHeader": false,
+            "columns": 2,
+            "rows": [
+              {
+                "id": "row-1735572150928-0",
+                "cells": [
+                  {
+                    "id": "cell-1735572150928-0-0",
+                    "content": "Role:",
+                    "isHeader": false
+                  },
+                  {
+                    "id": "cell-1735572150928-0-1",
+                    "content": "Emergency Department Nurse",
+                    "isHeader": false,
+                    "isAIGenerated": true,
+                    "originalVariable": "role"
+                  }
+                ]
+              },
+              {
+                "id": "row-1735572150928-1",
+                "cells": [
+                  {
+                    "id": "cell-1735572150928-1-0",
+                    "content": "Behavior:",
+                    "isHeader": false
+                  },
+                  {
+                    "id": "cell-1735572150928-1-1",
+                    "content": "Anxious and repeatedly asking for updates on test results, occasionally becoming tearful.",
+                    "isHeader": false,
+                    "isAIGenerated": true,
+                    "originalVariable": "behavior"
+                  }
+                ]
+              },
+              {
+                "id": "row-1735572150928-2",
+                "cells": [
+                  {
+                    "id": "cell-1735572150928-2-0",
+                    "content": "Key Moments:",
+                    "isHeader": false
+                  },
+                  {
+                    "id": "cell-1735572150928-2-1",
+                    "content": "1. Learners identify the need for immediate resuscitation upon observing the patient's vital signs and symptoms.\n2. Successful establishment of IV access and initiation of fluid resuscitation.\n3. Recognition of the need for urgent surgical consultation based on the patient's history and physical examination findings.\n4. Effective communication among team members during the resuscitation and decision-making process.\n5. Learners order appropriate diagnostic tests that confirm the initial diagnosis.\n6. Implementation of correct pre-operative management, including antibiotic administration.\n7. Discussion regarding the importance of timely intervention to prevent complications.\n8. Debriefing session focusing on the critical steps taken and areas for improvement in managing similar future cases.",
+                    "isHeader": false,
+                    "isAIGenerated": true,
+                    "originalVariable": "key_moments"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "section-1735571853272",
+        "title": "Section 6: Scenario Progression",
+        "tables": [
+          {
+            "id": "table-1735573884505",
+            "title": "Scenario States, Modifiers, and Triggers",
+            "hasHeader": true,
+            "columns": 5,
+            "rows": [
+              {
+                "id": "row-1735573884505-header",
+                "cells": [
+                  {
+                    "id": "cell-1735573884505-header-0",
+                    "content": "Patient State and Vitals",
+                    "isHeader": true
+                  },
+                  {
+                    "id": "cell-1735573884505-header-1",
+                    "content": "Patient Status",
+                    "isHeader": true
+                  },
+                  {
+                    "id": "cell-1735573884505-header-2",
+                    "content": "Learner Actions",
+                    "isHeader": true
+                  },
+                  {
+                    "id": "cell-1735573884505-header-3",
+                    "content": "State Triggers",
+                    "isHeader": true
+                  },
+                  {
+                    "id": "cell-1735573884505-header-4",
+                    "content": "Facilitator Notes",
+                    "isHeader": true
+                  }
+                ]
+              },
+              {
+                "id": "row-1735573884505-0",
+                "cells": [
+                  {
+                    "id": "cell-1735573884505-0-0",
+                    "content": "Sinus tachycardia",
+                    "isHeader": false,
+                    "isAIGenerated": true,
+                    "originalVariable": "baseline_rhythm"
+                  },
+                  {
+                    "id": "cell-1735573884505-0-1",
+                    "content": "Elena Martinez, 37, reports intense, sharp lower abdominal pain that began suddenly 6 hours ago, worsening with movement. No past medical history of note. No current medications. No known allergies. 38.2°C, 120/80, 98%. History of similar but milder episodes over the past year, never sought medical attention. On examination, there is marked tenderness in the right lower quadrant with rebound tenderness. No cardiovascular or respiratory abnormalities noted. Neurological exam is normal. No skin rashes or musculoskeletal abnormalities.",
+                    "isHeader": false,
+                    "isAIGenerated": true,
+                    "originalVariable": "baseline_patient_status"
+                  },
+                  {
+                    "id": "cell-1735573884505-0-2",
+                    "content": "Take patient history\nPerform physical examination\nOrder appropriate laboratory tests\nInterpret laboratory results\nDiscuss differential diagnosis\nPlan initial management\nCommunicate findings and plan with team\nMonitor patient response to treatment\nAdjust management plan based on patient response and new information\nProvide patient education and discharge instructions",
+                    "isHeader": false,
+                    "isAIGenerated": true,
+                    "originalVariable": "baseline_learner_actions"
+                  },
+                  {
+                    "id": "cell-1735573884505-0-3",
+                    "content": "Learner asks for additional patient history\nLearner performs a focused physical examination\nLearner orders initial laboratory tests\nLearner administers first-line medication\nPatient's condition worsens, requiring reevaluation\nLearner calls for senior help or specialist consultation\nPatient's condition improves with appropriate management",
+                    "isHeader": false,
+                    "isAIGenerated": true,
+                    "originalVariable": "baseline_state_triggers"
+                  },
+                  {
+                    "id": "cell-1735573884505-0-4",
+                    "content": "Ensure learners understand the clinical significance of the patient's presenting symptoms and how they correlate with the underlying diagnosis. Guide the discussion towards the importance of a thorough patient history and physical examination in forming a differential diagnosis. Highlight the role of specific investigations in confirming the diagnosis. Encourage reflection on the management plan, including initial stabilization, specific treatments, and potential complications to monitor for. Remind learners to consider patient safety and communication strategies throughout the scenario.",
+                    "isHeader": false,
+                    "isAIGenerated": true,
+                    "originalVariable": "baseline_learners_should_attempt_to"
+                  }
+                ]
+              },
+              {
+                "id": "row-1735573884505-1",
+                "cells": [
+                  {
+                    "id": "cell-1735573884505-1-0",
+                    "content": "Sinus tachycardia with a heart rate of 120 bpm, blood pressure of 100/70 mmHg, respiratory rate of 22 breaths per minute, oxygen saturation of 94% on room air, and a temperature of 38.3°C",
+                    "isHeader": false,
+                    "isAIGenerated": true,
+                    "originalVariable": "state_2_rhythm"
+                  },
+                  {
+                    "id": "cell-1735573884505-1-1",
+                    "content": "Stable but requires monitoring",
+                    "isHeader": false,
+                    "isAIGenerated": true,
+                    "originalVariable": "state_2_patient_status"
+                  },
+                  {
+                    "id": "cell-1735573884505-1-2",
+                    "content": "Perform focused cardiovascular examination\nAsk patient about recent travel history\nOrder chest X-ray\nRequest complete blood count (CBC)\nAdminister oxygen therapy\nEvaluate patient's response to initial treatment\nDiscuss differential diagnosis with team\nPlan for echocardiography if suspicion of cardiac cause persists",
+                    "isHeader": false,
+                    "isAIGenerated": true,
+                    "originalVariable": "state_2_learner_actions"
+                  },
+                  {
+                    "id": "cell-1735573884505-1-3",
+                    "content": "Learner asks about patient's recent travel history\nLearner requests specific laboratory tests (CBC, CMP, Troponin)\nLearner performs a focused physical examination on the patient\nLearner administers initial treatment based on presenting symptoms\nPatient's condition worsens, prompting reevaluation of diagnosis and treatment plan\nLearner communicates with the patient's family to update them on the patient's condition and involve them in decision-making\nLearner initiates a consultation with a specialist based on the evolving clinical picture",
+                    "isHeader": false,
+                    "isAIGenerated": true,
+                    "originalVariable": "state_2_triggers"
+                  },
+                  {
+                    "id": "cell-1735573884505-1-4",
+                    "content": "Monitor learner engagement and ensure all participants have the opportunity to contribute to the diagnosis and management plan. Encourage critical thinking by asking open-ended questions related to the differential diagnosis and rationale for chosen treatments. Provide feedback on communication skills, especially during interactions with the simulated patient and team members. Highlight the importance of considering patient safety and ethical considerations in decision-making. Guide the debrief session to reflect on clinical reasoning, teamwork, and areas for improvement.",
+                    "isHeader": false,
+                    "isAIGenerated": true,
+                    "originalVariable": "state_2_learners_should_attempt_to"
+                  }
+                ]
+              },
+              {
+                "id": "row-1735573884505-2",
+                "cells": [
+                  {
+                    "id": "cell-1735573884505-2-0",
+                    "content": "Irregularly irregular rhythm, heart rate of 130 bpm, blood pressure of 90/60, respiratory rate of 22, oxygen saturation of 92% on room air",
+                    "isHeader": false,
+                    "isAIGenerated": true,
+                    "originalVariable": "state_3_rhythm"
+                  },
+                  {
+                    "id": "cell-1735573884505-2-1",
+                    "content": "Stable but requires monitoring for potential deterioration",
+                    "isHeader": false,
+                    "isAIGenerated": true,
+                    "originalVariable": "state_3_patient_status"
+                  },
+                  {
+                    "id": "cell-1735573884505-2-2",
+                    "content": "Perform focused cardiovascular examination\nOrder ECG\nRequest complete blood count (CBC)\nAdminister aspirin 325 mg orally\nInitiate oxygen therapy at 2 L/min via nasal cannula\nConsult cardiology",
+                    "isHeader": false,
+                    "isAIGenerated": true,
+                    "originalVariable": "state_3_learner_actions"
+                  },
+                  {
+                    "id": "cell-1735573884505-2-3",
+                    "content": "Learner asks about patient's recent travel history\nLearner requests specific laboratory tests (CBC, CMP, Troponin)\nLearner performs a focused cardiac examination\nLearner inquires about any recent chest pain or discomfort\nLearner administers oxygen therapy based on spO2 readings\nLearner decides to obtain an ECG",
+                    "isHeader": false,
+                    "isAIGenerated": true,
+                    "originalVariable": "state_3_triggers"
+                  },
+                  {
+                    "id": "cell-1735573884505-2-4",
+                    "content": "Monitor learner engagement and ensure all participants have the opportunity to contribute to the diagnosis and management plan. Provide guidance on interpreting vital signs and lab results in the context of the patient's symptoms. Encourage critical thinking by asking open-ended questions about differential diagnosis and next steps. Offer feedback on communication skills, especially during interactions with the simulated patient and team members. Highlight the importance of considering patient safety and ethical considerations in decision-making. Remind learners to reflect on their performance and identify areas for improvement.",
+                    "isHeader": false,
+                    "isAIGenerated": true,
+                    "originalVariable": "state_3_learners_should_attempt_to"
+                  }
+                ]
+              },
+              {
+                "id": "row-1735573884505-3",
+                "cells": [
+                  {
+                    "id": "cell-1735573884505-3-0",
+                    "content": "Irregular heart rhythm with occasional premature ventricular contractions, heart rate 110 bpm, blood pressure 145/90, respiratory rate 22, oxygen saturation 94% on room air",
+                    "isHeader": false,
+                    "isAIGenerated": true,
+                    "originalVariable": "state_4_rhythm"
+                  },
+                  {
+                    "id": "cell-1735573884505-3-1",
+                    "content": "Stable but requires monitoring",
+                    "isHeader": false,
+                    "isAIGenerated": true,
+                    "originalVariable": "state_4_patient_status"
+                  },
+                  {
+                    "id": "cell-1735573884505-3-2",
+                    "content": "Perform focused cardiovascular examination\nAsk patient about recent travel history\nOrder chest X-ray\nRequest complete blood count (CBC)\nAdminister oxygen therapy\nEvaluate patient's response to initial treatment\nDiscuss differential diagnosis with team",
+                    "isHeader": false,
+                    "isAIGenerated": true,
+                    "originalVariable": "state_4_learner_actions"
+                  },
+                  {
+                    "id": "cell-1735573884505-3-3",
+                    "content": "Learner asks for additional diagnostic tests\nLearner administers first-line treatment\nLearner reassesses patient after initial intervention\nPatient's condition worsens, requiring escalation of care\nLearner identifies need for specialist consultation",
+                    "isHeader": false,
+                    "isAIGenerated": true,
+                    "originalVariable": "state_4_triggers"
+                  },
+                  {
+                    "id": "cell-1735573884505-3-4",
+                    "content": "Monitor learner engagement and provide feedback on clinical decision-making skills. Encourage critical thinking by asking open-ended questions related to the case. Ensure learners maintain a patient-centered approach throughout the scenario. Guide discussions towards the learning objectives and facilitate reflection on actions taken during the scenario. Offer constructive criticism and highlight areas for improvement.",
+                    "isHeader": false,
+                    "isAIGenerated": true,
+                    "originalVariable": "state_4_learners_should_attempt_to"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "section-1735571880067",
+        "title": "Appendix",
+        "tables": [
+          {
+            "id": "table-1735572203621",
+            "title": "Appendix",
+            "hasHeader": false,
+            "columns": 2,
+            "rows": [
+              {
+                "id": "row-1735572203621-0",
+                "cells": [
+                  {
+                    "id": "cell-1735572203621-0-0",
+                    "content": "Appendix A",
+                    "isHeader": false
+                  },
+                  {
+                    "id": "cell-1735572203621-0-1",
+                    "content": "Chest X-ray shows a right lower lobe consolidation",
+                    "isHeader": false,
+                    "isAIGenerated": true,
+                    "originalVariable": "insert_any_imaging_labs_ekg_etc"
+                  }
+                ]
+              },
+              {
+                "id": "row-1735572203621-1",
+                "cells": [
+                  {
+                    "id": "cell-1735572203621-1-0",
+                    "content": "Appendix B",
+                    "isHeader": false
+                  },
+                  {
+                    "id": "cell-1735572203621-1-1",
+                    "content": "Ensure all equipment and supplies listed under Section 2: Set Up - Key Elements - B are checked for functionality and availability before the scenario begins to avoid any disruptions during the simulation.",
+                    "isHeader": false,
+                    "isAIGenerated": true,
+                    "originalVariable": "instructor_debriefing_tips"
+                  }
+                ]
+              },
+              {
+                "id": "row-1735572203621-2",
+                "cells": [
+                  {
+                    "id": "cell-1735572203621-2-0",
+                    "content": "Appendix C",
+                    "isHeader": false
+                  },
+                  {
+                    "id": "cell-1735572203621-2-1",
+                    "content": "Sample Medication Administration Chart",
+                    "isHeader": false,
+                    "isAIGenerated": true,
+                    "originalVariable": "references"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
